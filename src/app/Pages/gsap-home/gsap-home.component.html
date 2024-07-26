@@ -1,10 +1,10 @@
-<div class="flex flex-col align-middle">
-    <h2 class="text-4xl">Gsap Animations</h2>
+<main >
+    <h2 class="text-4xl mb-5 text-white">Gsap Animations</h2>
   
   <div class="flex flex-col">
     @for (item of viewList(); track $index) {
       <a class="font-bold" [routerLink]="item.path">{{item.title}}</a>
-      <p>{{item.description}}</p>
+      <p class="text-white">{{item.description}}</p>
     }
   </div>
-  </div>
+  </main>
